@@ -170,10 +170,21 @@ div#bg-1 > h1, h4{
   color: white;
 }
 #facts span{
-  font-size: 3em;
+  font-size: 40px;
   font-family: 'Open Sans', sans-serif;
 }
 
+@media (max-width: 768px) {
+  #facts span{
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 576px) {
+  #facts span{
+    font-size: 20px;
+  }
+}
 
 /*testimonial starts*/
 
@@ -204,6 +215,20 @@ div#bg-1 > h1, h4{
   letter-spacing: 1px;
   color: black;
 }
+
+@media (max-width: 768px) {
+  #portfolio{
+    padding: 40px;
+  }
+}
+
+@media (max-width: 576px) {
+  #portfolio{
+    padding: 20px;
+  }
+}
+
+
 
 /* Team Section
 --------------------------------*/
